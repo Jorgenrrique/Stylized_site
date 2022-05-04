@@ -147,6 +147,7 @@ img{
     color: var(--color-base);
 }
 a{
+    margin:10px 25px:
     font-family: 'geombold','Lexend', sans-serif;
 }
 a:hover{
