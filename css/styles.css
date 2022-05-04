@@ -4,16 +4,16 @@
 
 @font-face {
     font-family: 'laisharegular';
-    src: url('css/laisha_webfontkit/laisha-webfont.woff2') format('woff2'),
-         url('css/laisha_webfontkit/laisha-webfont.woff') format('woff');
+    src: url('https://jorgenrrique.github.io/Stylized_site/css/laisha_webfontkit/laisha-webfont.woff2') format('woff2'),
+         url('https://jorgenrrique.github.io/Stylized_site/css/laisha_webfontkit/laisha-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'geomregular';
-    src: url('css/geom_webfontkit/geom_light-webfont.woff2') format('woff2'),
-         url('css/geom_webfontkit/geom_light-webfont.woff') format('woff');
+    src: url('https://jorgenrrique.github.io/Stylized_site/css/geom_webfontkit/geom_light-webfont.woff2') format('woff2'),
+         url('https://jorgenrrique.github.io/Stylized_site/css/geom_webfontkit/geom_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,8 +21,8 @@
 
 @font-face {
     font-family: 'geombold';
-    src: url('css/geom_webfontkit/geom_ultra-webfont.woff2') format('woff2'),
-         url('css/geom_webfontkit/geom_ultra-webfont.woff') format('woff');
+    src: url('https://jorgenrrique.github.io/Stylized_site/css/geom_webfontkit/geom_ultra-webfont.woff2') format('woff2'),
+         url('https://jorgenrrique.github.io/Stylized_site/css/geom_webfontkit/geom_ultra-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -30,8 +30,8 @@
 
 @font-face {
     font-family: 'geomregular2';
-    src: url('css/geom_webfontkit/geom-variable-webfont.woff2') format('woff2'),
-         url('css/geom_webfontkit/geom-variable-webfont.woff') format('woff');
+    src: url('https://jorgenrrique.github.io/Stylized_site/css/geom_webfontkit/geom-variable-webfont.woff2') format('woff2'),
+         url('https://jorgenrrique.github.io/Stylized_site/css/geom_webfontkit/geom-variable-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
