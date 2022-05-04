@@ -144,7 +144,7 @@ img{
     top:50px;
 }
 .footer-text{
-    color: var(--color-base)
+    color: var(--color-base);
 }
 a{
     font-family: 'geombold','Lexend', sans-serif;
