@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300&display=swap');
+
+@font-face {
+    font-family: 'laisharegular';
+    src: url('css/laisha_webfontkit/laisha-webfont.woff2') format('woff2'),
+         url('css/laisha_webfontkit/laisha-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'geomregular';
+    src: url('css/geom_webfontkit/geom_light-webfont.woff2') format('woff2'),
+         url('css/geom_webfontkit/geom_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geombold';
+    src: url('css/geom_webfontkit/geom_ultra-webfont.woff2') format('woff2'),
+         url('css/geom_webfontkit/geom_ultra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geomregular2';
+    src: url('css/geom_webfontkit/geom-variable-webfont.woff2') format('woff2'),
+         url('css/geom_webfontkit/geom-variable-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root{
+    --color-highlight:#BE3144;
+    --color-base:#D3D6DB;
+    --color-secondary:#3A4750;
+    --color-primary:#303841;
+    
+}
+
+
+
+body{
+    text-align: center;
+    margin: 0%;
+    background-color: var(--color-primary);
+}
+.container{
+    width:100%;
+    height:800px;
+    background-color:var(--color-base);
+    margin: 0% 0%;
+}
+.top-container{
+
+    background-color:#d3d6dbee;
+
+}
+.title-text{
+    width:10%;
+    /* background-color: #3A4750; */
+    position: relative;
+    left: 30%;
+    top: 20%;
+    
+    transform: rotateZ(-15deg) skewX(-20deg);
+}
+h1{
+    font-size: 5rem;
+    color:var(--color-highlight);
+    margin:0px;
+    font-family: 'laisharegular', 'Philosopher', sans-serif;
+}
+.loza{
+    margin-left: 40%;
+}
+.section{
+    margin-left: 20%;
+    width: 60%;
+    height: 400px;
+    /* background-color: blueviolet; */
+    
+}
+.text-container{
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+    /* background-color: var(--color-highlight); */
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+    
+}
+.text-container-2{
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    /* background-color: var(--color-highlight); */
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    
+}
+h2{
+    color:var(--color-secondary);
+    margin-bottom: 30px;
+    font-family: 'geombold','Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+p {
+    color: var(--color-primary);
+    margin:0px;
+    font-family: 'geomregular', 'Lexend', sans-serif;
+    font-weight: 600;
+}
+img{
+    display: inline;
+    max-height: 400px;
+    height: 100%;
+    margin: auto 0%;
+    /* background-color: palevioletred; */
+
+}
+.bottom-container{
+    background-color: #D3D6DB;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+.mail-container{
+    
+    margin-top: 0%;
+    margin-left:60% ;
+    width:20%;
+    position: relative;
+    top:50px;
+}
+.footer-text{
+    color: var(--color-base)
+}
+a{
+    font-family: 'geombold','Lexend', sans-serif;
+}
+a:hover{
+    color: var(--color-highlight);
+}
+.intro-img{
+    
+    object-fit: cover;
+    object-position: 100% 0;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}
